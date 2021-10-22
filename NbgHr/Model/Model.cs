@@ -44,15 +44,15 @@ namespace NbgHr.Model
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
 
-        public HrDbContext(DbContextOptions options) : base(options)
+        public HrDbContext(DbContextOptions<HrDbContext> options) : base(options)
         {
 
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-             optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=nbgHr2021;Integrated Security=True");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //     optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=nbgHr2021;Integrated Security=True");
+        //}
 
     }
 

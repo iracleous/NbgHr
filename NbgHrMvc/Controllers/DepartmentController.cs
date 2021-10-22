@@ -11,10 +11,10 @@ namespace NbgHrMvc.Controllers
 {
     public class DepartmentController : Controller
     {
-
-        private readonly HrService hrService;
-
-        public DepartmentController(HrService hrService)
+        //sos
+        private readonly IHrService hrService;
+        //sos
+        public DepartmentController(IHrService hrService)
         {
             this.hrService = hrService;
         }

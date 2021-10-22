@@ -19,8 +19,4 @@
     <ProjectReference Include="..\NbgHr\NbgHr.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Department\" />
-  </ItemGroup>
-
 </Project>
