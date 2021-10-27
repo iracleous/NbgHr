@@ -68,7 +68,7 @@ namespace NbgHrMvc.Controllers
         // POST: DepartmentController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Edit([FromRoute] int id, [FromBody] Department department)
+        public async Task<ActionResult> Edit( int id,  Department department)
         {
             try
             {
