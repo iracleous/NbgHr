@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbgHr", "NbgHr\NbgHr.csproj", "{EEA0CEDB-9A34-4090-81D6-72DCF8A0EA14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbgHr", "NbgHr\NbgHr.csproj", "{EEA0CEDB-9A34-4090-81D6-72DCF8A0EA14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbgHrMvc", "NbgHrMvc\NbgHrMvc.csproj", "{869F63A0-A8F1-494B-973E-2407C945D0F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NbgHrMvc", "NbgHrMvc\NbgHrMvc.csproj", "{869F63A0-A8F1-494B-973E-2407C945D0F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NbgHrTest", "NbgHrTest\NbgHrTest.csproj", "{747A069D-B8A5-4235-B91E-43DF2DA8FFB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{869F63A0-A8F1-494B-973E-2407C945D0F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{869F63A0-A8F1-494B-973E-2407C945D0F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{869F63A0-A8F1-494B-973E-2407C945D0F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747A069D-B8A5-4235-B91E-43DF2DA8FFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747A069D-B8A5-4235-B91E-43DF2DA8FFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747A069D-B8A5-4235-B91E-43DF2DA8FFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747A069D-B8A5-4235-B91E-43DF2DA8FFB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
